@@ -1,4 +1,27 @@
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<android.support.design.widget.CoordinatorLayout
+    android:id="@+id/myCoordinatorLayout"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000">
+
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        tools:context="raphaelsantos.ramo_ieee_cefet_rj.MainActivity">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="90dp"
+            android:background="@drawable/ieee_header" />
+
+    </LinearLayout>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -11,13 +34,17 @@
     tools:context="raphaelsantos.ramo_ieee_cefet_rj.MainActivity">
 
     <!-- Login progress -->
+
+
     <ProgressBar
         android:id="@+id/login_progress"
         style="?android:attr/progressBarStyleLarge"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="8dp"
-        android:visibility="gone"/>
+        android:visibility="gone" />
+
+
 
     <ScrollView
         android:id="@+id/login_form"
@@ -30,48 +57,54 @@
             android:layout_height="wrap_content"
             android:orientation="vertical">
 
-            <android.support.design.widget.TextInputLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content">
-
-            <AutoCompleteTextView
-                android:id="@+id/email"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:hint="@string/prompt_email"
-                android:inputType="textEmailAddress"
-                android:maxLines="1"
-                android:singleLine="true"/>
-
-            </android.support.design.widget.TextInputLayout>
-
-            <android.support.design.widget.TextInputLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content">
-
-            <EditText
-                android:id="@+id/password"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:hint="@string/prompt_password"
-                android:imeActionId="@+id/login"
-                android:imeActionLabel="@string/action_sign_in_short"
-                android:imeOptions="actionUnspecified"
-                android:inputType="textPassword"
-                android:maxLines="1"
-                android:singleLine="true"/>
-
-            </android.support.design.widget.TextInputLayout>
 
             <Button
-                android:id="@+id/email_sign_in_button"
-                style="?android:textAppearanceSmall"
+                android:text="Área de membros do ramo IEEE"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="16dp"
-                android:text="@string/action_sign_in"
-                android:textStyle="bold"/>
+                android:layout_height="90dp"
+                android:id="@+id/gotoareaofmembers"
+                android:layout_marginTop="86dp"/>
+
+            <Button
+                android:text="IEEE"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:id="@+id/gotoIEEE" />
+
+
+            <Button
+                android:text="História do ramo"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:id="@+id/gotocheckhistory" />
+
+            <Button
+                android:text="Nossos projetos"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:id="@+id/gotocheckprojects" />
+
+
+            <Button
+                android:text="Estude aqui"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:id="@+id/gototests" />
+
+            <Button
+                android:text="Nerd quiz"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:id="@+id/gotoquizgame" />
+
+            <Button
+                android:text="Tech news"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:id="@+id/technews" />
 
         </LinearLayout>
     </ScrollView>
 </LinearLayout>
+
+</android.support.design.widget.CoordinatorLayout>

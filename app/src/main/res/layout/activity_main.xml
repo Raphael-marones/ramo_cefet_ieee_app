@@ -1,4 +1,27 @@
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<android.support.design.widget.CoordinatorLayout
+    android:id="@+id/myCoordinatorLayout"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000">
+
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        tools:context="raphaelsantos.ramo_ieee_cefet_rj.MainActivity">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="90dp"
+            android:background="@drawable/ieee_header" />
+
+    </LinearLayout>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -21,6 +44,8 @@
         android:layout_marginBottom="8dp"
         android:visibility="gone" />
 
+
+
     <ScrollView
         android:id="@+id/login_form"
         android:layout_width="match_parent"
@@ -31,35 +56,33 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical">
-            <ImageView
-                android:layout_width="match_parent"
-                android:layout_height="90dp"
-                android:background="@drawable/ieee_header" />
+
 
             <Button
                 android:text="Área de membros do ramo IEEE"
-                android:layout_width="185dp"
+                android:layout_width="match_parent"
                 android:layout_height="90dp"
-                android:id="@+id/gotoareaofmembers" />
+                android:id="@+id/gotoareaofmembers"
+                android:layout_marginTop="86dp"/>
 
             <Button
                 android:text="IEEE"
                 android:layout_width="match_parent"
                 android:layout_height="60dp"
-                android:id="@+id/IEEE" />
+                android:id="@+id/gotoIEEE" />
 
 
             <Button
                 android:text="História do ramo"
                 android:layout_width="match_parent"
                 android:layout_height="60dp"
-                android:id="@+id/checkhistory" />
+                android:id="@+id/gotocheckhistory" />
 
             <Button
                 android:text="Nossos projetos"
                 android:layout_width="match_parent"
                 android:layout_height="60dp"
-                android:id="@+id/checkprojects" />
+                android:id="@+id/gotocheckprojects" />
 
 
             <Button
@@ -73,6 +96,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="60dp"
                 android:id="@+id/gotoquizgame" />
+
             <Button
                 android:text="Tech news"
                 android:layout_width="match_parent"
@@ -82,3 +106,5 @@
         </LinearLayout>
     </ScrollView>
 </LinearLayout>
+
+</android.support.design.widget.CoordinatorLayout>
