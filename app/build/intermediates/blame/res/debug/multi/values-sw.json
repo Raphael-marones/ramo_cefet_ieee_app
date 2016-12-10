@@ -729,17 +729,17 @@
                     "startLine": 40,
                     "startColumn": 4,
                     "startOffset": 5244,
-                    "endColumn": 252,
-                    "endOffset": 5492
+                    "endColumn": 204,
+                    "endOffset": 5444
                 },
                 "from": {
-                    "file": "/Users/raphaelsantos/Documents/Projects/Android/Ramo_IEEE_Cefet-RJ/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/9.0.0/res/values-sw/values.xml",
+                    "file": "/Users/raphaelsantos/Documents/Projects/Android/Ramo_IEEE_Cefet-RJ/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/10.0.1/res/values-sw/values.xml",
                     "position": {
                         "startLine": 4,
-                        "startColumn": 4,
-                        "startOffset": 325,
-                        "endColumn": 252,
-                        "endOffset": 573
+                        "startColumn": 0,
+                        "startOffset": 285,
+                        "endColumn": 204,
+                        "endOffset": 489
                     }
                 }
             },
@@ -747,9 +747,9 @@
                 "to": {
                     "startLine": 41,
                     "startColumn": 4,
-                    "startOffset": 5497,
+                    "startOffset": 5449,
                     "endColumn": 258,
-                    "endOffset": 5751
+                    "endOffset": 5703
                 },
                 "from": {
                     "file": "/Users/raphaelsantos/Documents/Projects/Android/Ramo_IEEE_Cefet-RJ/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.0.0/res/values-sw/values.xml",
@@ -766,9 +766,9 @@
                 "to": {
                     "startLine": 42,
                     "startColumn": 4,
-                    "startOffset": 5756,
+                    "startOffset": 5708,
                     "endColumn": 124,
-                    "endOffset": 5876
+                    "endOffset": 5828
                 },
                 "from": {
                     "file": "/Users/raphaelsantos/Documents/Projects/Android/Ramo_IEEE_Cefet-RJ/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.0.0/res/values-sw/values.xml",
@@ -785,9 +785,9 @@
                 "to": {
                     "startLine": 43,
                     "startColumn": 4,
-                    "startOffset": 5881,
+                    "startOffset": 5833,
                     "endColumn": 107,
-                    "endOffset": 5984
+                    "endOffset": 5936
                 },
                 "from": {
                     "file": "/Users/raphaelsantos/Documents/Projects/Android/Ramo_IEEE_Cefet-RJ/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.0.0/res/values-sw/values.xml",
@@ -804,9 +804,9 @@
                 "to": {
                     "startLine": 44,
                     "startColumn": 4,
-                    "startOffset": 5989,
+                    "startOffset": 5941,
                     "endColumn": 184,
-                    "endOffset": 6169
+                    "endOffset": 6121
                 },
                 "from": {
                     "file": "/Users/raphaelsantos/Documents/Projects/Android/Ramo_IEEE_Cefet-RJ/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.0.0/res/values-sw/values.xml",
@@ -823,9 +823,9 @@
                 "to": {
                     "startLine": 45,
                     "startColumn": 4,
-                    "startOffset": 6174,
+                    "startOffset": 6126,
                     "endColumn": 128,
-                    "endOffset": 6298
+                    "endOffset": 6250
                 },
                 "from": {
                     "file": "/Users/raphaelsantos/Documents/Projects/Android/Ramo_IEEE_Cefet-RJ/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.0.0/res/values-sw/values.xml",
@@ -842,9 +842,9 @@
                 "to": {
                     "startLine": 46,
                     "startColumn": 4,
-                    "startOffset": 6303,
+                    "startOffset": 6255,
                     "endColumn": 208,
-                    "endOffset": 6507
+                    "endOffset": 6459
                 },
                 "from": {
                     "file": "/Users/raphaelsantos/Documents/Projects/Android/Ramo_IEEE_Cefet-RJ/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.0.0/res/values-sw/values.xml",
@@ -861,9 +861,9 @@
                 "to": {
                     "startLine": 47,
                     "startColumn": 4,
-                    "startOffset": 6512,
+                    "startOffset": 6464,
                     "endColumn": 135,
-                    "endOffset": 6643
+                    "endOffset": 6595
                 },
                 "from": {
                     "file": "/Users/raphaelsantos/Documents/Projects/Android/Ramo_IEEE_Cefet-RJ/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.0.0/res/values-sw/values.xml",
@@ -880,9 +880,9 @@
                 "to": {
                     "startLine": 48,
                     "startColumn": 4,
-                    "startOffset": 6648,
+                    "startOffset": 6600,
                     "endColumn": 188,
-                    "endOffset": 6832
+                    "endOffset": 6784
                 },
                 "from": {
                     "file": "/Users/raphaelsantos/Documents/Projects/Android/Ramo_IEEE_Cefet-RJ/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.0.0/res/values-sw/values.xml",
@@ -899,9 +899,9 @@
                 "to": {
                     "startLine": 49,
                     "startColumn": 4,
-                    "startOffset": 6837,
+                    "startOffset": 6789,
                     "endColumn": 97,
-                    "endOffset": 6930
+                    "endOffset": 6882
                 },
                 "from": {
                     "file": "/Users/raphaelsantos/Documents/Projects/Android/Ramo_IEEE_Cefet-RJ/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.0.0/res/values-sw/values.xml",
@@ -918,9 +918,9 @@
                 "to": {
                     "startLine": 50,
                     "startColumn": 4,
-                    "startOffset": 6935,
+                    "startOffset": 6887,
                     "endColumn": 104,
-                    "endOffset": 7035
+                    "endOffset": 6987
                 },
                 "from": {
                     "file": "/Users/raphaelsantos/Documents/Projects/Android/Ramo_IEEE_Cefet-RJ/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.0.0/res/values-sw/values.xml",
@@ -937,9 +937,9 @@
                 "to": {
                     "startLine": 51,
                     "startColumn": 4,
-                    "startOffset": 7040,
+                    "startOffset": 6992,
                     "endColumn": 124,
-                    "endOffset": 7160
+                    "endOffset": 7112
                 },
                 "from": {
                     "file": "/Users/raphaelsantos/Documents/Projects/Android/Ramo_IEEE_Cefet-RJ/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.0.0/res/values-sw/values.xml",
@@ -956,9 +956,9 @@
                 "to": {
                     "startLine": 52,
                     "startColumn": 4,
-                    "startOffset": 7165,
+                    "startOffset": 7117,
                     "endColumn": 81,
-                    "endOffset": 7242
+                    "endOffset": 7194
                 },
                 "from": {
                     "file": "/Users/raphaelsantos/Documents/Projects/Android/Ramo_IEEE_Cefet-RJ/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/res/values-sw/values-sw.xml",
@@ -975,9 +975,9 @@
                 "to": {
                     "startLine": 53,
                     "startColumn": 4,
-                    "startOffset": 7247,
+                    "startOffset": 7199,
                     "endColumn": 100,
-                    "endOffset": 7343
+                    "endOffset": 7295
                 },
                 "from": {
                     "file": "/Users/raphaelsantos/Documents/Projects/Android/Ramo_IEEE_Cefet-RJ/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/res/values-sw/values-sw.xml",

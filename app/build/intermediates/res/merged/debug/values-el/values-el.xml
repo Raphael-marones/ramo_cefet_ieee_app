@@ -38,7 +38,7 @@
     <string msgid="8137798410446890929" name="common_google_play_services_restricted_profile_title">"Προφίλ περιορισμένης πρόσβασης"</string>
     <string msgid="2431909537598981235" name="common_google_play_services_sign_in_failed_text">"Σφάλμα κατά τη σύνδεση στον συγκεκριμένο λογαριασμό. Επιλέξτε έναν διαφορετικό λογαριασμό."</string>
     <string msgid="4402642931312190213" name="common_google_play_services_sign_in_failed_title">"Η σύνδεση απέτυχε"</string>
-    <string msgid="9089562800660647919" name="common_google_play_services_unknown_issue">"Παρουσιάζονται προβλήματα με τις υπηρεσίες Google Play στην εφαρμογή <ns1:g id="APP_NAME">%1$s</ns1:g>. Εάν το πρόβλημα εξακολουθεί να παρουσιάζεται, επικοινωνήστε με τον προγραμματιστή για βοήθεια."</string>
+    <string msgid="2518680582564677258" name="common_google_play_services_unknown_issue">"Η εφαρμογή <ns1:g id="APP_NAME">%1$s</ns1:g> αντιμετωπίζει κάποιο πρόβλημα με τις υπηρεσίες Google Play. Προσπαθήστε ξανά."</string>
     <string msgid="1064791666906610763" name="common_google_play_services_unsupported_text">"Η εφαρμογή <ns1:g id="APP_NAME">%1$s</ns1:g> βασίζεται στις υπηρεσίες Google Play, οι οποίες δεν υποστηρίζονται από τη συσκευή σας. Επικοινωνήστε με τον κατασκευαστή για βοήθεια."</string>
     <string msgid="539866123733096737" name="common_google_play_services_unsupported_title">"Υπηρεσίες Google Play"</string>
     <string msgid="8172070149091615356" name="common_google_play_services_update_button">"Ενημέρωση"</string>

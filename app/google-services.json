@@ -15,6 +15,14 @@
       },
       "oauth_client": [
         {
+          "client_id": "784826500875-2s9qvbac35hm75baetaf7e86s6smq4i8.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "raphaelsantos.ramo_ieee_cefet_rj",
+            "certificate_hash": "8123A0910DA73A89103C8B9B09487CCBF56BDF21"
+          }
+        },
+        {
           "client_id": "784826500875-pscoosi3jdh8349gg08t53jffb9rs3qf.apps.googleusercontent.com",
           "client_type": 3
         }
@@ -29,8 +37,13 @@
           "status": 1
         },
         "appinvite_service": {
-          "status": 1,
-          "other_platform_oauth_client": []
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "784826500875-pscoosi3jdh8349gg08t53jffb9rs3qf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
         },
         "ads_service": {
           "status": 2

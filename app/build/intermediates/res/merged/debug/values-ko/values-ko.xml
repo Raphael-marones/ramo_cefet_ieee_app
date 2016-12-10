@@ -38,7 +38,7 @@
     <string msgid="8137798410446890929" name="common_google_play_services_restricted_profile_title">"제한된 프로필"</string>
     <string msgid="2431909537598981235" name="common_google_play_services_sign_in_failed_text">"지정한 계정에 로그인하는 중에 오류가 발생했습니다. 다른 계정을 선택해 주세요."</string>
     <string msgid="4402642931312190213" name="common_google_play_services_sign_in_failed_title">"로그인 실패"</string>
-    <string msgid="9089562800660647919" name="common_google_play_services_unknown_issue">"<ns1:g id="APP_NAME">%1$s</ns1:g>에서 Google Play 서비스를 사용하는 데 문제가 있습니다. 문제가 계속되는 경우 개발자에게 지원을 요청하세요."</string>
+    <string msgid="2518680582564677258" name="common_google_play_services_unknown_issue">"<ns1:g id="APP_NAME">%1$s</ns1:g>에서 Google Play 서비스를 사용하는 데 문제가 있습니다. 다시 시도하세요."</string>
     <string msgid="1064791666906610763" name="common_google_play_services_unsupported_text">"<ns1:g id="APP_NAME">%1$s</ns1:g>에 필요한 Google Play 서비스가 사용자 기기에서 지원되지 않습니다. 기기 제조업체에 문의하시기 바랍니다."</string>
     <string msgid="539866123733096737" name="common_google_play_services_unsupported_title">"Google Play 서비스"</string>
     <string msgid="8172070149091615356" name="common_google_play_services_update_button">"업데이트"</string>

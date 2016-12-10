@@ -38,7 +38,7 @@
     <string msgid="8137798410446890929" name="common_google_play_services_restricted_profile_title">"प्रतिबंधित प्रोफ़ाइल"</string>
     <string msgid="2431909537598981235" name="common_google_play_services_sign_in_failed_text">"निर्दिष्‍ट खाते में प्रवेश करने में त्रुटि. कृपया कोई भिन्‍न खाता चुनें."</string>
     <string msgid="4402642931312190213" name="common_google_play_services_sign_in_failed_title">"प्रवेश करना विफल रहा"</string>
-    <string msgid="9089562800660647919" name="common_google_play_services_unknown_issue">"<ns1:g id="APP_NAME">%1$s</ns1:g> को Google Play सेवाओं के साथ समस्या है. यदि समस्या बनी रहती है, तो कृपया सहायता के लिए डेवलपर से संपर्क करें."</string>
+    <string msgid="2518680582564677258" name="common_google_play_services_unknown_issue">"<ns1:g id="APP_NAME">%1$s</ns1:g> को Google Play सेवाओं के साथ समस्या आ रही है. कृपया फिर से प्रयास करें."</string>
     <string msgid="1064791666906610763" name="common_google_play_services_unsupported_text">"<ns1:g id="APP_NAME">%1$s</ns1:g> उन Google Play सेवाओं पर निर्भर है जो आपके डिवाइस द्वारा समर्थित नहीं हैं. सहायता के लिए निर्माता से संपर्क करें."</string>
     <string msgid="539866123733096737" name="common_google_play_services_unsupported_title">"Google Play सेवाएं"</string>
     <string msgid="8172070149091615356" name="common_google_play_services_update_button">"अपडेट करें"</string>

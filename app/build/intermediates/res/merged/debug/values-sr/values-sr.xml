@@ -38,7 +38,7 @@
     <string msgid="8137798410446890929" name="common_google_play_services_restricted_profile_title">"Ограничени профил"</string>
     <string msgid="2431909537598981235" name="common_google_play_services_sign_in_failed_text">"Дошло је до грешке при пријављивању на наведени налог. Изаберите други налог."</string>
     <string msgid="4402642931312190213" name="common_google_play_services_sign_in_failed_title">"Пријављивање није успело"</string>
-    <string msgid="9089562800660647919" name="common_google_play_services_unknown_issue">"<ns1:g id="APP_NAME">%1$s</ns1:g> има проблема са Google Play услугама. Ако се проблем и даље јавља, обратите се програмеру да бисте добили помоћ."</string>
+    <string msgid="2518680582564677258" name="common_google_play_services_unknown_issue">"<ns1:g id="APP_NAME">%1$s</ns1:g> има проблема са Google Play услугама. Покушајте поново."</string>
     <string msgid="1064791666906610763" name="common_google_play_services_unsupported_text">"<ns1:g id="APP_NAME">%1$s</ns1:g> користи Google Play услуге, које уређај не подржава. Контактирајте произвођача да бисте добили помоћ."</string>
     <string msgid="539866123733096737" name="common_google_play_services_unsupported_title">"Google Play услуге"</string>
     <string msgid="8172070149091615356" name="common_google_play_services_update_button">"Ажурирај"</string>

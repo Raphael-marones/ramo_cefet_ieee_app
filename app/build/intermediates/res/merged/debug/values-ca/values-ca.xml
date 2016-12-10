@@ -38,7 +38,7 @@
     <string msgid="8137798410446890929" name="common_google_play_services_restricted_profile_title">"Perfil restringit"</string>
     <string msgid="2431909537598981235" name="common_google_play_services_sign_in_failed_text">"S\'ha produït un error en iniciar la sessió al compte especificat. Selecciona un altre compte."</string>
     <string msgid="4402642931312190213" name="common_google_play_services_sign_in_failed_title">"S\'ha produït un error en iniciar sessió."</string>
-    <string msgid="9089562800660647919" name="common_google_play_services_unknown_issue">"<ns1:g id="APP_NAME">%1$s</ns1:g> té problemes amb els serveis de Google Play. Si el problema continua, contacta amb el desenvolupador per obtenir ajuda."</string>
+    <string msgid="2518680582564677258" name="common_google_play_services_unknown_issue">"<ns1:g id="APP_NAME">%1$s</ns1:g> té problemes amb els serveis de Google Play. Torna-ho a provar."</string>
     <string msgid="1064791666906610763" name="common_google_play_services_unsupported_text">"<ns1:g id="APP_NAME">%1$s</ns1:g> depèn dels serveis de Google Play, que no són compatibles amb el teu dispositiu. Contacta amb el fabricant per obtenir ajuda."</string>
     <string msgid="539866123733096737" name="common_google_play_services_unsupported_title">"Serveis de Google Play"</string>
     <string msgid="8172070149091615356" name="common_google_play_services_update_button">"Actualitza"</string>

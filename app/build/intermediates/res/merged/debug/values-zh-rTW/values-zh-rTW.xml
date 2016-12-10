@@ -38,7 +38,7 @@
     <string msgid="8137798410446890929" name="common_google_play_services_restricted_profile_title">"設有限制的個人資料"</string>
     <string msgid="2431909537598981235" name="common_google_play_services_sign_in_failed_text">"登入指定的帳戶時發生錯誤，請選擇其他帳戶。"</string>
     <string msgid="4402642931312190213" name="common_google_play_services_sign_in_failed_title">"登入失敗"</string>
-    <string msgid="9089562800660647919" name="common_google_play_services_unknown_issue">"「<ns1:g id="APP_NAME">%1$s</ns1:g>」無法存取 Google Play 服務。如果問題無法解決，請與開發人員聯絡，向對方尋求協助。"</string>
+    <string msgid="2518680582564677258" name="common_google_play_services_unknown_issue">"「<ns1:g id="APP_NAME">%1$s</ns1:g>」無法存取 Google Play 服務，請再試一次。"</string>
     <string msgid="1064791666906610763" name="common_google_play_services_unsupported_text">"「<ns1:g id="APP_NAME">%1$s</ns1:g>」需要搭配 Google Play 服務才能運作，但您的裝置並不支援相關服務。請與您的裝置製造商聯絡以尋求協助。"</string>
     <string msgid="539866123733096737" name="common_google_play_services_unsupported_title">"Google Play 服務"</string>
     <string msgid="8172070149091615356" name="common_google_play_services_update_button">"更新"</string>

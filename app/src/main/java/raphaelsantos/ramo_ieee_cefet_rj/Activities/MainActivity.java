@@ -63,6 +63,8 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 // Go to projects zone
+                Intent go_to_projects = new Intent(MainActivity.this, ProjectsActivity.class);
+                startActivity(go_to_projects);
             }
         });
 

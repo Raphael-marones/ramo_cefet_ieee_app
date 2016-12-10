@@ -38,7 +38,7 @@
     <string msgid="8137798410446890929" name="common_google_play_services_restricted_profile_title">"Eingeschränktes Profil"</string>
     <string msgid="2431909537598981235" name="common_google_play_services_sign_in_failed_text">"Fehler beim Anmelden im angegebenen Konto. Bitte wähle ein anderes Konto aus."</string>
     <string msgid="4402642931312190213" name="common_google_play_services_sign_in_failed_title">"Anmeldung fehlgeschlagen"</string>
-    <string msgid="9089562800660647919" name="common_google_play_services_unknown_issue">"<ns1:g id="APP_NAME">%1$s</ns1:g> hat Probleme mit Google Play-Diensten. Wenn das Problem weiterhin besteht, kontaktiere bitte den Entwickler."</string>
+    <string msgid="2518680582564677258" name="common_google_play_services_unknown_issue">"<ns1:g id="APP_NAME">%1$s</ns1:g> hat Probleme mit Google Play-Diensten. Bitte versuche es noch einmal."</string>
     <string msgid="1064791666906610763" name="common_google_play_services_unsupported_text">"Zur Nutzung von <ns1:g id="APP_NAME">%1$s</ns1:g> sind Google Play-Dienste erforderlich. Diese werden auf deinem Gerät jedoch nicht unterstützt. Wende dich für weitere Informationen an den Hersteller."</string>
     <string msgid="539866123733096737" name="common_google_play_services_unsupported_title">"Google Play-Dienste"</string>
     <string msgid="8172070149091615356" name="common_google_play_services_update_button">"Aktualisieren"</string>

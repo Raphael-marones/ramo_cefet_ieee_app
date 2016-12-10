@@ -38,7 +38,7 @@
     <string msgid="8137798410446890929" name="common_google_play_services_restricted_profile_title">"Begränsad profil"</string>
     <string msgid="2431909537598981235" name="common_google_play_services_sign_in_failed_text">"Ett fel uppstod när du försökte logga in på kontot. Välj ett annat konto."</string>
     <string msgid="4402642931312190213" name="common_google_play_services_sign_in_failed_title">"Det gick inte att logga in"</string>
-    <string msgid="9089562800660647919" name="common_google_play_services_unknown_issue">"<ns1:g id="APP_NAME">%1$s</ns1:g> har problem med Google Play-tjänster. Om problemet kvarstår kontaktar du utvecklaren."</string>
+    <string msgid="2518680582564677258" name="common_google_play_services_unknown_issue">"Det har uppstått ett fel mellan <ns1:g id="APP_NAME">%1$s</ns1:g> och Google Play-tjänsterna. Försök igen."</string>
     <string msgid="1064791666906610763" name="common_google_play_services_unsupported_text">"För <ns1:g id="APP_NAME">%1$s</ns1:g> krävs Google Play-tjänster, och dessa stöds inte på enheten. Kontakta tillverkaren om du vill ha hjälp."</string>
     <string msgid="539866123733096737" name="common_google_play_services_unsupported_title">"Google Play-tjänster"</string>
     <string msgid="8172070149091615356" name="common_google_play_services_update_button">"Uppdatera"</string>

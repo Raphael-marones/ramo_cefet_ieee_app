@@ -38,7 +38,7 @@
     <string msgid="8137798410446890929" name="common_google_play_services_restricted_profile_title">"受限个人资料"</string>
     <string msgid="2431909537598981235" name="common_google_play_services_sign_in_failed_text">"登录该帐号时出错。请选择其他帐号。"</string>
     <string msgid="4402642931312190213" name="common_google_play_services_sign_in_failed_title">"登录失败"</string>
-    <string msgid="9089562800660647919" name="common_google_play_services_unknown_issue">"<ns1:g id="APP_NAME">%1$s</ns1:g>无法访问 Google Play 服务。如果问题一直存在，请与开发者联系以寻求帮助。"</string>
+    <string msgid="2518680582564677258" name="common_google_play_services_unknown_issue">"<ns1:g id="APP_NAME">%1$s</ns1:g>无法访问 Google Play 服务，请重试。"</string>
     <string msgid="1064791666906610763" name="common_google_play_services_unsupported_text">"<ns1:g id="APP_NAME">%1$s</ns1:g>必须搭配使用 Google Play 服务才能运行，但您的设备不支持该服务。请与设备制造商联系以寻求帮助。"</string>
     <string msgid="539866123733096737" name="common_google_play_services_unsupported_title">"Google Play服务"</string>
     <string msgid="8172070149091615356" name="common_google_play_services_update_button">"更新"</string>

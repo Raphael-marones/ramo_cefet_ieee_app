@@ -38,7 +38,7 @@
     <string msgid="8137798410446890929" name="common_google_play_services_restricted_profile_title">"Ограничен потребителски профил"</string>
     <string msgid="2431909537598981235" name="common_google_play_services_sign_in_failed_text">"При влизането в посочения профил възникна грешка. Моля, изберете друг."</string>
     <string msgid="4402642931312190213" name="common_google_play_services_sign_in_failed_title">"Влизането в профила не бе успешно"</string>
-    <string msgid="9089562800660647919" name="common_google_play_services_unknown_issue">"<ns1:g id="APP_NAME">%1$s</ns1:g> има проблем с услугите за Google Play. Ако той не се отстрани, моля, свържете се с програмиста за съдействие."</string>
+    <string msgid="2518680582564677258" name="common_google_play_services_unknown_issue">"<ns1:g id="APP_NAME">%1$s</ns1:g> има проблеми с услугите за Google Play. Моля, опитайте отново."</string>
     <string msgid="1064791666906610763" name="common_google_play_services_unsupported_text">"<ns1:g id="APP_NAME">%1$s</ns1:g> разчита на услугите за Google Play, които не се поддържат от устройството ви. Свържете се с производителя за съдействие."</string>
     <string msgid="539866123733096737" name="common_google_play_services_unsupported_title">"Услуги за Google Play"</string>
     <string msgid="8172070149091615356" name="common_google_play_services_update_button">"Актуализиране"</string>

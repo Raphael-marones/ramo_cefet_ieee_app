@@ -38,7 +38,7 @@
     <string msgid="8137798410446890929" name="common_google_play_services_restricted_profile_title">"Профіль з обмеженнями"</string>
     <string msgid="2431909537598981235" name="common_google_play_services_sign_in_failed_text">"Не вдалося ввійти в указаний обліковий запис. Виберіть інший."</string>
     <string msgid="4402642931312190213" name="common_google_play_services_sign_in_failed_title">"Помилка під час входу"</string>
-    <string msgid="9089562800660647919" name="common_google_play_services_unknown_issue">"У додатка <ns1:g id="APP_NAME">%1$s</ns1:g> виникла проблема із сервісами Google Play. Якщо проблема не зникне, зверніться по допомогу до розробника."</string>
+    <string msgid="2518680582564677258" name="common_google_play_services_unknown_issue">"У додатку <ns1:g id="APP_NAME">%1$s</ns1:g> виникла проблема із сервісами Google Play. Повторіть спробу."</string>
     <string msgid="1064791666906610763" name="common_google_play_services_unsupported_text">"Додаток <ns1:g id="APP_NAME">%1$s</ns1:g> працює завдяки сервісам Google Play, які не підтримуються на вашому пристрої. Зверніться по допомогу до виробника."</string>
     <string msgid="539866123733096737" name="common_google_play_services_unsupported_title">"Сервіси Google Play"</string>
     <string msgid="8172070149091615356" name="common_google_play_services_update_button">"Оновити"</string>
