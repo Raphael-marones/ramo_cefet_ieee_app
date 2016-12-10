@@ -6,12 +6,12 @@
     android:layout_height="match_parent"
     android:gravity="center_horizontal"
     android:orientation="vertical"
-    tools:context="raphaelsantos.ramo_ieee_cefet_rj.HistoryActivity">
+    tools:context="raphaelsantos.ramo_ieee_cefet_rj.Activities.HistoryActivity">
 
     <ImageView
         android:layout_width="match_parent"
         android:layout_height="90dp"
-        android:background="@drawable/ramo_history_banner"/>
+        android:background="@drawable/ieee_banner"/>
 
     <ScrollView
         android:layout_width="match_parent"

@@ -3,12 +3,344 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:background="#f0000000">
 
     <ImageView
         android:layout_width="match_parent"
         android:layout_height="90dp"
         android:background="@drawable/ieee_banner" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="wrap_content"
+        android:layout_margin="24dp"
+        >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/Projects"
+            android:text="@string/projects"
+            android:textAlignment="center"
+            android:layout_gravity="bottom"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            android:textColor="#ffffff"
+        />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@drawable/pagebreak_white"/>
+
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="350dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:padding="16dp"
+                >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/title_robotics"
+                    android:text="@string/title_robotics"
+                    android:gravity="center"
+                    android:textAlignment="inherit"
+                    android:textSize="24sp"
+                    android:textColor="#ffffff"/>
+
+
+                <ImageView
+                    android:layout_width="320dp"
+                    android:layout_height="30dp"
+                    android:layout_gravity="center"
+                    android:background="@drawable/pagebreak_white"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/title_sumo"
+                    android:text="@string/title_sumo"
+                    android:gravity="center"
+                    android:textAlignment="textStart"
+                    android:padding="@dimen/activity_horizontal_margin"
+                    android:textSize="18sp"
+                    android:textColor="#ffffff"/>
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/content_sumo"
+                    android:text="@string/content_sumo"
+                    android:gravity="center"
+                    android:textAlignment="textStart"
+                    android:padding="@dimen/activity_horizontal_margin"
+                    android:textSize="12sp"
+                    android:textColor="#ffffff"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/members_sumo"
+                    android:text="@string/members_sumo"
+                    android:gravity="center"
+                    android:textAlignment="textStart"
+                    android:padding="@dimen/activity_horizontal_margin"
+                    android:textSize="12sp"
+                    android:textColor="#ffffff"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/title_trekking"
+                    android:text="@string/title_trekking"
+                    android:gravity="center"
+                    android:textAlignment="textStart"
+                    android:padding="@dimen/activity_horizontal_margin"
+                    android:textSize="18sp"
+                    android:textColor="#ffffff"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/content_trekking"
+                    android:text="@string/content_trekking"
+                    android:gravity="center"
+                    android:textAlignment="textStart"
+                    android:padding="@dimen/activity_horizontal_margin"
+                    android:textSize="12sp"
+                    android:textColor="#ffffff"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/members_Trekking"
+                    android:text="@string/members_trekking"
+                    android:gravity="center"
+                    android:textAlignment="textStart"
+                    android:padding="@dimen/activity_horizontal_margin"
+                    android:textSize="12sp"
+                    android:textColor="#ffffff"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/title_linefollower"
+                    android:text="@string/title_linefollower"
+                    android:gravity="center"
+                    android:textAlignment="textStart"
+                    android:padding="@dimen/activity_horizontal_margin"
+                    android:textSize="18sp"
+                    android:textColor="#ffffff"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/content_linefollower"
+                    android:text="@string/content_linefollower"
+                    android:gravity="center"
+                    android:textAlignment="textStart"
+                    android:padding="@dimen/activity_horizontal_margin"
+                    android:textSize="12sp"
+                    android:textColor="#ffffff"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/members_linefollower"
+                    android:text="@string/members_linefollower"
+                    android:gravity="center"
+                    android:textAlignment="textStart"
+                    android:padding="@dimen/activity_horizontal_margin"
+                    android:textSize="12sp"
+                    android:textColor="#ffffff"/>
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:layout_gravity="center"
+                    android:paddingBottom="30dp"
+                    android:background="@drawable/pagebreak_cefet_white"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/title_coder"
+                    android:text="@string/title_Coders"
+                    android:gravity="center"
+                    android:paddingTop="@dimen/activity_horizontal_margin"
+                    android:textAlignment="inherit"
+                    android:textSize="24sp"
+                    android:textColor="#ffffff"/>
+
+                <ImageView
+                    android:layout_width="320dp"
+                    android:layout_height="30dp"
+                    android:layout_gravity="center"
+                    android:background="@drawable/pagebreak_white"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/title_game"
+                    android:text="@string/title_game"
+                    android:gravity="center"
+                    android:textAlignment="textStart"
+                    android:padding="@dimen/activity_horizontal_margin"
+                    android:textSize="18sp"
+                    android:textColor="#ffffff"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/content_game"
+                    android:text="@string/content_game"
+                    android:gravity="center"
+                    android:textAlignment="textStart"
+                    android:padding="@dimen/activity_horizontal_margin"
+                    android:textSize="12sp"
+                    android:textColor="#ffffff"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/members_game"
+                    android:text="@string/members_game"
+                    android:gravity="center"
+                    android:textAlignment="textStart"
+                    android:padding="@dimen/activity_horizontal_margin"
+                    android:textSize="12sp"
+                    android:textColor="#ffffff"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/title_mobile"
+                    android:text="@string/title_mobile"
+                    android:gravity="center"
+                    android:textAlignment="textStart"
+                    android:padding="@dimen/activity_horizontal_margin"
+                    android:textSize="18sp"
+                    android:textColor="#ffffff"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/content_mobile"
+                    android:text="@string/content_mobile"
+                    android:gravity="center"
+                    android:textAlignment="textStart"
+                    android:padding="@dimen/activity_horizontal_margin"
+                    android:textSize="12sp"
+                    android:textColor="#ffffff"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/members_mobile"
+                    android:text="@string/members_mobile"
+                    android:gravity="center"
+                    android:textAlignment="textStart"
+                    android:padding="@dimen/activity_horizontal_margin"
+                    android:textSize="12sp"
+                    android:textColor="#ffffff"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/title_competition"
+                    android:text="@string/title_competition"
+                    android:gravity="center"
+                    android:textAlignment="textStart"
+                    android:padding="@dimen/activity_horizontal_margin"
+                    android:textSize="18sp"
+                    android:textColor="#ffffff"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/content_competition"
+                    android:text="@string/content_linefollower"
+                    android:gravity="center"
+                    android:textAlignment="textStart"
+                    android:padding="@dimen/activity_horizontal_margin"
+                    android:textSize="12sp"
+                    android:textColor="#ffffff"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/members_competition"
+                    android:text="@string/members_competition"
+                    android:gravity="center"
+                    android:textAlignment="textStart"
+                    android:padding="@dimen/activity_horizontal_margin"
+                    android:textSize="12sp"
+                    android:textColor="#ffffff"/>
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:layout_gravity="center"
+                    android:paddingBottom="30dp"
+                    android:background="@drawable/pagebreak_cefet_white"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/title_rocket"
+                    android:text="@string/title_rocket"
+                    android:gravity="center"
+                    android:paddingTop="16dp"
+                    android:textAlignment="inherit"
+                    android:textSize="24sp"
+                    android:textColor="#ffffff"/>
+
+
+                <ImageView
+                    android:layout_width="320dp"
+                    android:layout_height="30dp"
+                    android:layout_gravity="center"
+                    android:background="@drawable/pagebreak_white"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/title_aerorocket"
+                    android:text="@string/title_aeroRocket"
+                    android:gravity="center"
+                    android:textAlignment="textStart"
+                    android:padding="@dimen/activity_horizontal_margin"
+                    android:textSize="18sp"
+                    android:textColor="#ffffff"/>
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/content_aerorocket"
+                    android:text="@string/content_aeroRocket"
+                    android:gravity="center"
+                    android:textAlignment="textStart"
+                    android:padding="@dimen/activity_horizontal_margin"
+                    android:textSize="12sp"
+                    android:textColor="#ffffff"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/members_aerorocket"
+                    android:text="@string/members_aeroRocket"
+                    android:gravity="center"
+                    android:textAlignment="textStart"
+                    android:padding="@dimen/activity_horizontal_margin"
+                    android:textSize="12sp"
+                    android:textColor="#ffffff"/>
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:layout_gravity="center"
+                    android:paddingBottom="30dp"
+                    android:background="@drawable/pagebreak_cefet_white"/>
+
+
+            </LinearLayout>
+        </ScrollView>
     <Button
         android:text="SE INSCREVER"
         android:layout_width="wrap_content"
@@ -17,5 +349,7 @@
         android:layout_marginTop="24dp"
         android:layout_gravity="center"/>
 
-
 </LinearLayout>
+
+
+
