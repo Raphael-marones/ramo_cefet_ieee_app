@@ -16,6 +16,40 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2f4c9da6-479c-480e-87ae-3c24b6c7a1be" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ramoestudantilcefetieee/app/src/main/res/mipmap-hdpi/ic_launcher.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ramoestudantilcefetieee/app/src/main/res/mipmap-mdpi/ic_launcher.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ramoestudantilcefetieee/app/src/main/res/mipmap-xhdpi/ic_launcher.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ramoestudantilcefetieee/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ramoestudantilcefetieee/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ramoestudantilcefetieee/gradle/wrapper/gradle-wrapper.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ramoestudantilcefetieee/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ramoestudantilcefetieee/.idea/.name" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ramoestudantilcefetieee/.idea/compiler.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ramoestudantilcefetieee/.idea/copyright/profiles_settings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ramoestudantilcefetieee/.idea/encodings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ramoestudantilcefetieee/.idea/gradle.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ramoestudantilcefetieee/.idea/misc.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ramoestudantilcefetieee/.idea/modules.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ramoestudantilcefetieee/.idea/runConfigurations.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ramoestudantilcefetieee/app/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ramoestudantilcefetieee/app/build.gradle" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ramoestudantilcefetieee/app/proguard-rules.pro" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ramoestudantilcefetieee/app/src/androidTest/java/conversorieee/studio/com/ramoestudantilcefetieee/ApplicationTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ramoestudantilcefetieee/app/src/main/AndroidManifest.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ramoestudantilcefetieee/app/src/main/java/conversorieee/studio/com/ramoestudantilcefetieee/MainActivity.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ramoestudantilcefetieee/app/src/main/res/layout/activity_main.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ramoestudantilcefetieee/app/src/main/res/values-w820dp/dimens.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ramoestudantilcefetieee/app/src/main/res/values/colors.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ramoestudantilcefetieee/app/src/main/res/values/dimens.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ramoestudantilcefetieee/app/src/main/res/values/strings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ramoestudantilcefetieee/app/src/main/res/values/styles.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ramoestudantilcefetieee/app/src/test/java/conversorieee/studio/com/ramoestudantilcefetieee/ExampleUnitTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ramoestudantilcefetieee/build.gradle" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ramoestudantilcefetieee/gradle.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ramoestudantilcefetieee/gradle/wrapper/gradle-wrapper.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ramoestudantilcefetieee/gradlew" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ramoestudantilcefetieee/gradlew.bat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ramoestudantilcefetieee/settings.gradle" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Ramo_IEEE_Cefet-RJ.iws" />
@@ -55,7 +89,7 @@
       <file leaf-file-name="ProjectsActivity.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/raphaelsantos/ramo_ieee_cefet_rj/Activities/ProjectsActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1713">
+            <state relative-caret-position="348">
               <caret line="116" column="0" selection-start-line="116" selection-start-column="0" selection-end-line="116" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -4690,7 +4724,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/raphaelsantos/ramo_ieee_cefet_rj/Activities/ProjectsActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1713">
+        <state relative-caret-position="348">
           <caret line="116" column="0" selection-start-line="116" selection-start-column="0" selection-end-line="116" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
