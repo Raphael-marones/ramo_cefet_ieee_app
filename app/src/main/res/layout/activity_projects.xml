@@ -32,7 +32,7 @@
 
         <ImageView
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_height="50dp"
             android:layout_gravity="center"
             android:background="@drawable/pagebreak_white"/>
 
@@ -337,7 +337,120 @@
                     android:layout_gravity="center"
                     android:paddingBottom="30dp"
                     android:background="@drawable/pagebreak_cefet_white"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/title_energy_solartree"
+                    android:text="@string/title_energy_solartree"
+                    android:gravity="center"
+                    android:paddingTop="16dp"
+                    android:textAlignment="inherit"
+                    android:textSize="24sp"
+                    android:textColor="#ffffff"/>
 
+
+                <ImageView
+                    android:layout_width="320dp"
+                    android:layout_height="30dp"
+                    android:layout_gravity="center"
+                    android:background="@drawable/pagebreak_white"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/title_solartree"
+                    android:text="@string/title_solartree"
+                    android:gravity="center"
+                    android:textAlignment="textStart"
+                    android:padding="@dimen/activity_horizontal_margin"
+                    android:textSize="18sp"
+                    android:textColor="#ffffff"/>
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/content_solartree"
+                    android:text="@string/content_solartree"
+                    android:gravity="center"
+                    android:textAlignment="textStart"
+                    android:padding="@dimen/activity_horizontal_margin"
+                    android:textSize="12sp"
+                    android:textColor="#ffffff"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/members_solartree"
+                    android:text="@string/members_solartree"
+                    android:gravity="center"
+                    android:textAlignment="textStart"
+                    android:padding="@dimen/activity_horizontal_margin"
+                    android:textSize="12sp"
+                    android:textColor="#ffffff"/>
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:layout_gravity="center"
+                    android:paddingBottom="30dp"
+                    android:background="@drawable/pagebreak_cefet_white"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/title_social"
+                    android:text="@string/title_social"
+                    android:gravity="center"
+                    android:paddingTop="16dp"
+                    android:textAlignment="inherit"
+                    android:textSize="24sp"
+                    android:textColor="#ffffff"/>
+
+
+                <ImageView
+                    android:layout_width="320dp"
+                    android:layout_height="30dp"
+                    android:layout_gravity="center"
+                    android:background="@drawable/pagebreak_white"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/title_schoolieee"
+                    android:text="@string/title_schoolieee"
+                    android:gravity="center"
+                    android:textAlignment="textStart"
+                    android:padding="@dimen/activity_horizontal_margin"
+                    android:textSize="18sp"
+                    android:textColor="#ffffff"/>
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/content_schoolieee"
+                    android:text="@string/content_schooliee"
+                    android:gravity="center"
+                    android:textAlignment="textStart"
+                    android:padding="@dimen/activity_horizontal_margin"
+                    android:textSize="12sp"
+                    android:textColor="#ffffff"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/members_schoolieee"
+                    android:text="@string/members_schoolieee"
+                    android:gravity="center"
+                    android:textAlignment="textStart"
+                    android:padding="@dimen/activity_horizontal_margin"
+                    android:textSize="12sp"
+                    android:textColor="#ffffff"/>
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:layout_gravity="center"
+                    android:paddingBottom="30dp"
+                    android:background="@drawable/pagebreak_cefet_white"/>
 
             </LinearLayout>
         </ScrollView>
