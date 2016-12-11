@@ -1,10 +1,12 @@
 package raphaelsantos.ramo_ieee_cefet_rj.Entities;
 
+import java.io.Serializable;
+
 /**
  * Created by raphaelsantos on 12/6/16.
  */
 
-public class Project {
+public class Project implements Serializable {
     public String getContent() {
         return content;
     }

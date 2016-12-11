@@ -3,8 +3,11 @@ package raphaelsantos.ramo_ieee_cefet_rj.Activities;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
+import android.util.Log;
 import android.view.View;
 import android.widget.Button;
+
+import java.io.IOException;
 
 import raphaelsantos.ramo_ieee_cefet_rj.R;
 
@@ -16,7 +19,7 @@ public class MainActivity extends AppCompatActivity {
     private Button projects;
     private Button study_with_branch;
     private Button quiz_game;
-
+    private String TAG = new String();
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -29,6 +32,12 @@ public class MainActivity extends AppCompatActivity {
         projects = (Button) findViewById(R.id.gotocheckprojects);
         study_with_branch = (Button) findViewById(R.id.gototests);
         quiz_game = (Button) findViewById(R.id.gotoquizgame);
+
+        isOnline();
+
+        if (isOnline() == true){
+            Log.w(TAG, "CONECTADOOOOOOOO!!!!!!!!!!!!!");
+        }
 
 
         exclusive.setOnClickListener(new View.OnClickListener() {
@@ -85,5 +94,21 @@ public class MainActivity extends AppCompatActivity {
 
 
     }
+
+    public boolean isOnline() {
+
+        Runtime runtime = Runtime.getRuntime();
+        try {
+
+            Process ipProcess = runtime.exec("/system/bin/ping -c 1 8.8.8.8");
+            int     exitValue = ipProcess.waitFor();
+            return (exitValue == 0);
+
+        } catch (IOException e)          { e.printStackTrace(); }
+        catch (InterruptedException e) { e.printStackTrace(); }
+
+        return false;
+    }
+
 }
 
