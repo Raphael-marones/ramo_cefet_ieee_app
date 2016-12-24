@@ -343,7 +343,7 @@ public class ProjectsActivity  extends AppCompatActivity{
 
 
             }
-        }, 900);
+        }, 1100);
 
         //This timer gives time for the Thread to be loaded with
         // the desired information from firebase
