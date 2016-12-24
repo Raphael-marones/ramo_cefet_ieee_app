@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/Ramo_IEEE_Cefet-RJ.iml" filepath="$PROJECT_DIR$/Ramo_IEEE_Cefet-RJ.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Ramo_IEEE_Cefet-rj.iml" filepath="$PROJECT_DIR$/Ramo_IEEE_Cefet-rj.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
     </modules>
   </component>
