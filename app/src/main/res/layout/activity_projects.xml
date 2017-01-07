@@ -1,10 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#f0000000">
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    tools:context="raphaelsantos.ramo_ieee_cefet_rj.Activities.ProjectsActivity">
 
     <ImageView
         android:layout_width="match_parent"
@@ -40,11 +43,11 @@
 
     <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="350dp">
+        android:layout_height="wrap_content">
 
             <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
+                android:layout_height="wrap_content"
                 android:orientation="vertical"
                 android:padding="16dp"
                 >
@@ -55,7 +58,7 @@
                     android:id="@+id/title_robotics"
                     android:text="@string/title_robotics"
                     android:gravity="center"
-                    android:textAlignment="inherit"
+                    android:textAlignment="center"
                     android:textSize="24sp"
                     android:textColor="#ffffff"/>
 
@@ -71,7 +74,7 @@
                     android:layout_height="match_parent"
                     android:id="@+id/title_sumo"
                     android:text="@string/title_sumo"
-                    android:gravity="center"
+                    android:gravity="start"
                     android:textAlignment="textStart"
                     android:padding="@dimen/activity_horizontal_margin"
                     android:textSize="18sp"
@@ -83,7 +86,7 @@
                     android:layout_height="match_parent"
                     android:id="@+id/content_sumo"
                     android:text="@string/content_sumo"
-                    android:gravity="center"
+                    android:gravity="start"
                     android:textAlignment="textStart"
                     android:padding="@dimen/activity_horizontal_margin"
                     android:textSize="12sp"
@@ -93,7 +96,7 @@
                     android:layout_height="match_parent"
                     android:id="@+id/members_sumo"
                     android:text="@string/members_sumo"
-                    android:gravity="center"
+                    android:gravity="start"
                     android:textAlignment="textStart"
                     android:padding="@dimen/activity_horizontal_margin"
                     android:textSize="12sp"
@@ -103,7 +106,7 @@
                     android:layout_height="match_parent"
                     android:id="@+id/title_trekking"
                     android:text="@string/title_trekking"
-                    android:gravity="center"
+                    android:gravity="start"
                     android:textAlignment="textStart"
                     android:padding="@dimen/activity_horizontal_margin"
                     android:textSize="18sp"
@@ -113,7 +116,7 @@
                     android:layout_height="match_parent"
                     android:id="@+id/content_trekking"
                     android:text="@string/content_trekking"
-                    android:gravity="center"
+                    android:gravity="start"
                     android:textAlignment="textStart"
                     android:padding="@dimen/activity_horizontal_margin"
                     android:textSize="12sp"
@@ -123,7 +126,7 @@
                     android:layout_height="match_parent"
                     android:id="@+id/members_Trekking"
                     android:text="@string/members_trekking"
-                    android:gravity="center"
+                    android:gravity="start"
                     android:textAlignment="textStart"
                     android:padding="@dimen/activity_horizontal_margin"
                     android:textSize="12sp"
@@ -133,7 +136,7 @@
                     android:layout_height="match_parent"
                     android:id="@+id/title_linefollower"
                     android:text="@string/title_linefollower"
-                    android:gravity="center"
+                    android:gravity="start"
                     android:textAlignment="textStart"
                     android:padding="@dimen/activity_horizontal_margin"
                     android:textSize="18sp"
@@ -143,7 +146,7 @@
                     android:layout_height="match_parent"
                     android:id="@+id/content_linefollower"
                     android:text="@string/content_linefollower"
-                    android:gravity="center"
+                    android:gravity="start"
                     android:textAlignment="textStart"
                     android:padding="@dimen/activity_horizontal_margin"
                     android:textSize="12sp"
@@ -153,7 +156,7 @@
                     android:layout_height="match_parent"
                     android:id="@+id/members_linefollower"
                     android:text="@string/members_linefollower"
-                    android:gravity="center"
+                    android:gravity="start"
                     android:textAlignment="textStart"
                     android:padding="@dimen/activity_horizontal_margin"
                     android:textSize="12sp"
@@ -172,7 +175,7 @@
                     android:text="@string/title_Coders"
                     android:gravity="center"
                     android:paddingTop="@dimen/activity_horizontal_margin"
-                    android:textAlignment="inherit"
+                    android:textAlignment="center"
                     android:textSize="24sp"
                     android:textColor="#ffffff"/>
 
@@ -187,7 +190,7 @@
                     android:layout_height="wrap_content"
                     android:id="@+id/title_game"
                     android:text="@string/title_game"
-                    android:gravity="center"
+                    android:gravity="start"
                     android:textAlignment="textStart"
                     android:padding="@dimen/activity_horizontal_margin"
                     android:textSize="18sp"
@@ -197,7 +200,7 @@
                     android:layout_height="wrap_content"
                     android:id="@+id/content_game"
                     android:text="@string/content_game"
-                    android:gravity="center"
+                    android:gravity="start"
                     android:textAlignment="textStart"
                     android:padding="@dimen/activity_horizontal_margin"
                     android:textSize="12sp"
@@ -207,7 +210,7 @@
                     android:layout_height="match_parent"
                     android:id="@+id/members_game"
                     android:text="@string/members_game"
-                    android:gravity="center"
+                    android:gravity="start"
                     android:textAlignment="textStart"
                     android:padding="@dimen/activity_horizontal_margin"
                     android:textSize="12sp"
@@ -217,7 +220,7 @@
                     android:layout_height="match_parent"
                     android:id="@+id/title_mobile"
                     android:text="@string/title_mobile"
-                    android:gravity="center"
+                    android:gravity="start"
                     android:textAlignment="textStart"
                     android:padding="@dimen/activity_horizontal_margin"
                     android:textSize="18sp"
@@ -227,7 +230,7 @@
                     android:layout_height="match_parent"
                     android:id="@+id/content_mobile"
                     android:text="@string/content_mobile"
-                    android:gravity="center"
+                    android:gravity="start"
                     android:textAlignment="textStart"
                     android:padding="@dimen/activity_horizontal_margin"
                     android:textSize="12sp"
@@ -237,7 +240,7 @@
                     android:layout_height="match_parent"
                     android:id="@+id/members_mobile"
                     android:text="@string/members_mobile"
-                    android:gravity="center"
+                    android:gravity="start"
                     android:textAlignment="textStart"
                     android:padding="@dimen/activity_horizontal_margin"
                     android:textSize="12sp"
@@ -247,7 +250,7 @@
                     android:layout_height="match_parent"
                     android:id="@+id/title_competition"
                     android:text="@string/title_competition"
-                    android:gravity="center"
+                    android:gravity="start"
                     android:textAlignment="textStart"
                     android:padding="@dimen/activity_horizontal_margin"
                     android:textSize="18sp"
@@ -257,7 +260,7 @@
                     android:layout_height="match_parent"
                     android:id="@+id/content_competition"
                     android:text="@string/content_linefollower"
-                    android:gravity="center"
+                    android:gravity="start"
                     android:textAlignment="textStart"
                     android:padding="@dimen/activity_horizontal_margin"
                     android:textSize="12sp"
@@ -267,7 +270,7 @@
                     android:layout_height="match_parent"
                     android:id="@+id/members_competition"
                     android:text="@string/members_competition"
-                    android:gravity="center"
+                    android:gravity="start"
                     android:textAlignment="textStart"
                     android:padding="@dimen/activity_horizontal_margin"
                     android:textSize="12sp"
@@ -287,7 +290,7 @@
                     android:text="@string/title_rocket"
                     android:gravity="center"
                     android:paddingTop="16dp"
-                    android:textAlignment="inherit"
+                    android:textAlignment="center"
                     android:textSize="24sp"
                     android:textColor="#ffffff"/>
 
@@ -303,7 +306,7 @@
                     android:layout_height="match_parent"
                     android:id="@+id/title_aerorocket"
                     android:text="@string/title_aeroRocket"
-                    android:gravity="center"
+                    android:gravity="start"
                     android:textAlignment="textStart"
                     android:padding="@dimen/activity_horizontal_margin"
                     android:textSize="18sp"
@@ -315,7 +318,7 @@
                     android:layout_height="match_parent"
                     android:id="@+id/content_aerorocket"
                     android:text="@string/content_aeroRocket"
-                    android:gravity="center"
+                    android:gravity="start"
                     android:textAlignment="textStart"
                     android:padding="@dimen/activity_horizontal_margin"
                     android:textSize="12sp"
@@ -325,7 +328,7 @@
                     android:layout_height="match_parent"
                     android:id="@+id/members_aerorocket"
                     android:text="@string/members_aeroRocket"
-                    android:gravity="center"
+                    android:gravity="start"
                     android:textAlignment="textStart"
                     android:padding="@dimen/activity_horizontal_margin"
                     android:textSize="12sp"
@@ -344,7 +347,7 @@
                     android:text="@string/title_energy_solartree"
                     android:gravity="center"
                     android:paddingTop="16dp"
-                    android:textAlignment="inherit"
+                    android:textAlignment="center"
                     android:textSize="24sp"
                     android:textColor="#ffffff"/>
 
@@ -360,7 +363,7 @@
                     android:layout_height="match_parent"
                     android:id="@+id/title_solartree"
                     android:text="@string/title_solartree"
-                    android:gravity="center"
+                    android:gravity="start"
                     android:textAlignment="textStart"
                     android:padding="@dimen/activity_horizontal_margin"
                     android:textSize="18sp"
@@ -372,7 +375,7 @@
                     android:layout_height="match_parent"
                     android:id="@+id/content_solartree"
                     android:text="@string/content_solartree"
-                    android:gravity="center"
+                    android:gravity="start"
                     android:textAlignment="textStart"
                     android:padding="@dimen/activity_horizontal_margin"
                     android:textSize="12sp"
@@ -382,7 +385,7 @@
                     android:layout_height="match_parent"
                     android:id="@+id/members_solartree"
                     android:text="@string/members_solartree"
-                    android:gravity="center"
+                    android:gravity="start"
                     android:textAlignment="textStart"
                     android:padding="@dimen/activity_horizontal_margin"
                     android:textSize="12sp"
@@ -401,7 +404,7 @@
                     android:text="@string/title_social"
                     android:gravity="center"
                     android:paddingTop="16dp"
-                    android:textAlignment="inherit"
+                    android:textAlignment="center"
                     android:textSize="24sp"
                     android:textColor="#ffffff"/>
 
@@ -417,7 +420,7 @@
                     android:layout_height="match_parent"
                     android:id="@+id/title_schoolieee"
                     android:text="@string/title_schoolieee"
-                    android:gravity="center"
+                    android:gravity="start"
                     android:textAlignment="textStart"
                     android:padding="@dimen/activity_horizontal_margin"
                     android:textSize="18sp"
@@ -429,7 +432,7 @@
                     android:layout_height="match_parent"
                     android:id="@+id/content_schoolieee"
                     android:text="@string/content_schooliee"
-                    android:gravity="center"
+                    android:gravity="start"
                     android:textAlignment="textStart"
                     android:padding="@dimen/activity_horizontal_margin"
                     android:textSize="12sp"
@@ -439,7 +442,7 @@
                     android:layout_height="match_parent"
                     android:id="@+id/members_schoolieee"
                     android:text="@string/members_schoolieee"
-                    android:gravity="center"
+                    android:gravity="start"
                     android:textAlignment="textStart"
                     android:padding="@dimen/activity_horizontal_margin"
                     android:textSize="12sp"
@@ -452,17 +455,13 @@
                     android:paddingBottom="30dp"
                     android:background="@drawable/pagebreak_cefet_white"/>
 
+                <Button
+                    android:text="SE INSCREVER"
+                    android:layout_width="wrap_content"
+                    android:layout_height="60dp"
+                    android:id="@+id/applyingforbutton"
+                    android:layout_marginTop="24dp"
+                    android:layout_gravity="center"/>
             </LinearLayout>
         </ScrollView>
-    <Button
-        android:text="SE INSCREVER"
-        android:layout_width="wrap_content"
-        android:layout_height="60dp"
-        android:id="@+id/applyingforbutton"
-        android:layout_marginTop="24dp"
-        android:layout_gravity="center"/>
-
 </LinearLayout>
-
-
-

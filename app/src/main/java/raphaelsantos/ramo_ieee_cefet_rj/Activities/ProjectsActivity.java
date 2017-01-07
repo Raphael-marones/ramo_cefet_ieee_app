@@ -84,12 +84,12 @@ public class ProjectsActivity  extends AppCompatActivity{
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_projects);
 
-        competition_title = (TextView)findViewById(R.id.title_competition);
-        competition_members = (TextView)findViewById(R.id.members_competition);
-        competition_content = (TextView)findViewById(R.id.content_competition);
+        competition_title = (TextView) findViewById(R.id.title_competition);
+        competition_members = (TextView) findViewById(R.id.members_competition);
+        competition_content = (TextView) findViewById(R.id.content_competition);
 
-        mobile_title = (TextView)findViewById(R.id.title_mobile);
-        mobile_content = (TextView)findViewById(R.id.content_mobile);
+        mobile_title = (TextView) findViewById(R.id.title_mobile);
+        mobile_content = (TextView) findViewById(R.id.content_mobile);
         mobile_members = (TextView) findViewById(R.id.members_mobile);
 
         game_title = (TextView) findViewById(R.id.title_game);
@@ -124,79 +124,83 @@ public class ProjectsActivity  extends AppCompatActivity{
 
         FirebaseDatabase database = FirebaseDatabase.getInstance();
         DatabaseReference myRef = database.getReference("Ramo");
+        DatabaseReference acesso_total = myRef.child("Projects");
+        acesso_total.addChildEventListener(new ChildEventListener() {
+            @Override
+            public void onChildAdded(DataSnapshot dataSnapshot, String s) {
+                counting = dataSnapshot.getChildrenCount();
+                System.out.print(counting);
+            }
 
-         DatabaseReference acesso_total = myRef.child("Projects");  
-        acesso_total.addChildEventListener(new ChildEventListener() { 
-            @Override 
-            public void onChildAdded(DataSnapshot dataSnapshot, String s){
-                     counting = dataSnapshot.getChildrenCount(); 
-                System.out.print(counting);     }  
+            public void onChildChanged(DataSnapshot dataSnapshot, String s) {
+            }
 
-            public void onChildChanged(DataSnapshot dataSnapshot, String s) {   
-            } 
-            public void onChildRemoved(DataSnapshot dataSnapshot) { 
-            } 
-            public void onChildMoved(DataSnapshot dataSnapshot, String s) { 
-            }  
-            public void onCancelled(DatabaseError databaseError) {  
-
-            } });
-
-              acesso_total.addValueEventListener(new ValueEventListener() { 
-            @Override 
-            public void onDataChange(DataSnapshot dataSnapshot) {   
-                rocket.setTitle(dataSnapshot.child("Rocket").child("Rocketproject").child("Title").getValue(String.class)); 
-                rocket.setContent(dataSnapshot.child("Rocket").child("Rocketproject").child("Content").getValue(String.class)); 
-                rocket.setTeam_members(dataSnapshot.child("Rocket").child("Rocketproject").child("Participant").getValue(String.class)); 
-                rocket.setLeaders(dataSnapshot.child("Rocket").child("Rocketproject").child("Leader").getValue(String.class)); 
-                rocket.setSponsors(dataSnapshot.child("Rocket").child("Rocketproject").child("Sponsor").getValue(String.class));  
-                school.setTitle(dataSnapshot.child("Schoolers").child("Title").getValue(String.class)); 
-                school.setContent(dataSnapshot.child("Schoolers").child("Content").getValue(String.class)); 
-                school.setTeam_members(dataSnapshot.child("Schoolers").child("Participant").getValue(String.class)); 
-                school.setLeaders(dataSnapshot.child("Schoolers").child("Leader").getValue(String.class)); 
-                school.setSponsors(dataSnapshot.child("Schoolers").child("Sponsor").getValue(String.class));  
-                competition_coder.setTitle(dataSnapshot.child("Coders").child("Competition").child("Title").getValue(String.class)); 
-                competition_coder.setContent(dataSnapshot.child("Coders").child("Competition").child("Content").getValue(String.class)); 
-                competition_coder.setTeam_members(dataSnapshot.child("Coders").child("Competition").child("Participant").getValue(String.class)); 
-                competition_coder.setLeaders(dataSnapshot.child("Coders").child("Competition").child("Leader").getValue(String.class)); 
-                competition_coder.setSponsors(dataSnapshot.child("Coders").child("Competition").child("Sponsor").getValue(String.class));  
-                game_coder.setTitle(dataSnapshot.child("Coders").child("Games").child("Title").getValue(String.class)); 
-                game_coder.setContent(dataSnapshot.child("Coders").child("Games").child("Content").getValue(String.class)); 
-                game_coder.setTeam_members(dataSnapshot.child("Coders").child("Games").child("Participant").getValue(String.class)); 
-                game_coder.setLeaders(dataSnapshot.child("Coders").child("Games").child("Leader").getValue(String.class)); 
-                game_coder.setSponsors(dataSnapshot.child("Coders").child("Games").child("Sponsor").getValue(String.class));  
-                mobile_coder.setTitle(dataSnapshot.child("Coders").child("Mobile").child("Title").getValue(String.class)); 
-                mobile_coder.setContent(dataSnapshot.child("Coders").child("Mobile").child("Content").getValue(String.class)); 
-                mobile_coder.setTeam_members(dataSnapshot.child("Coders").child("Mobile").child("Participant").getValue(String.class)); 
-                mobile_coder.setLeaders(dataSnapshot.child("Coders").child("Mobile").child("Leader").getValue(String.class)); 
-                mobile_coder.setSponsors(dataSnapshot.child("Coders").child("Mobile").child("Sponsor").getValue(String.class));  
-                trekking_robot.setTitle(dataSnapshot.child("Robotics").child("Trekking").child("Title").getValue(String.class)); 
-                trekking_robot.setContent(dataSnapshot.child("Robotics").child("Trekking").child("Content").getValue(String.class)); 
-                trekking_robot.setLeaders(dataSnapshot.child("Robotics").child("Trekking").child("Leaders").getValue(String.class)); 
-                trekking_robot.setTeam_members(dataSnapshot.child("Robotics").child("Trekking").child("Participant").getValue(String.class));  
-                sumo_robot.setTitle(dataSnapshot.child("Robotics").child("Sumo").child("Title").getValue(String.class)); 
-                sumo_robot.setContent(dataSnapshot.child("Robotics").child("Sumo").child("Content").getValue(String.class)); 
-                sumo_robot.setLeaders(dataSnapshot.child("Robotics").child("Sumo").child("Leaders").getValue(String.class)); 
-                sumo_robot.setTeam_members(dataSnapshot.child("Robotics").child("Sumo").child("Participant").getValue(String.class));  
-                linefollower_robot.setTitle(dataSnapshot.child("Robotics").child("Line_Follower").child("Title").getValue(String.class)); 
-                linefollower_robot.setContent(dataSnapshot.child("Robotics").child("Line_Follower").child("Content").getValue(String.class)); 
-                linefollower_robot.setLeaders(dataSnapshot.child("Robotics").child("Line_Follower").child("Leaders").getValue(String.class)); 
-                linefollower_robot.setTeam_members(dataSnapshot.child("Robotics").child("Line_Follower").child("Participant").getValue(String.class));  
-                solar.setTitle(dataSnapshot.child("Solars").child("Title").getValue(String.class)); 
-                solar.setContent(dataSnapshot.child("Solars").child("Content").getValue(String.class)); 
-                solar.setLeaders(dataSnapshot.child("Solars").child("Leaders").getValue(String.class)); 
-                solar.setTeam_members(dataSnapshot.child("Solars").child("Participant").getValue(String.class));    
-
-                Log.w(TAG, "SSSSSString no bundle é: "+ game_coder.getTitle());  
-                Log.i(TAG, "SSSSSString no bundle é: "+ game_coder.getTitle());  
-                Log.d(TAG, "SSSSSString no bundle é: "+ game_coder.getTitle()); 
-            }  
-
-            @Override 
-            public void onCancelled(DatabaseError databaseError) {  
+            public void onChildRemoved(DataSnapshot dataSnapshot) {
 
             }
-             
+
+            public void onChildMoved(DataSnapshot dataSnapshot, String s) {
+            }
+
+            public void onCancelled(DatabaseError databaseError) {
+            }
+        });
+
+        acesso_total.addValueEventListener(new ValueEventListener() {
+            @Override
+            public void onDataChange(DataSnapshot dataSnapshot) {
+                rocket.setTitle(dataSnapshot.child("Rocket").child("Rocketproject").child("Title").getValue(String.class));
+                rocket.setContent(dataSnapshot.child("Rocket").child("Rocketproject").child("Content").getValue(String.class));
+                rocket.setTeam_members(dataSnapshot.child("Rocket").child("Rocketproject").child("Participant").getValue(String.class));
+                rocket.setLeaders(dataSnapshot.child("Rocket").child("Rocketproject").child("Leader").getValue(String.class));
+                rocket.setSponsors(dataSnapshot.child("Rocket").child("Rocketproject").child("Sponsor").getValue(String.class));
+                school.setTitle(dataSnapshot.child("Schoolers").child("Title").getValue(String.class));
+                school.setContent(dataSnapshot.child("Schoolers").child("Content").getValue(String.class));
+                school.setTeam_members(dataSnapshot.child("Schoolers").child("Participant").getValue(String.class));
+                school.setLeaders(dataSnapshot.child("Schoolers").child("Leader").getValue(String.class));
+                school.setSponsors(dataSnapshot.child("Schoolers").child("Sponsor").getValue(String.class));
+                competition_coder.setTitle(dataSnapshot.child("Coders").child("Competition").child("Title").getValue(String.class));
+                competition_coder.setContent(dataSnapshot.child("Coders").child("Competition").child("Content").getValue(String.class));
+                competition_coder.setTeam_members(dataSnapshot.child("Coders").child("Competition").child("Participant").getValue(String.class));
+                competition_coder.setLeaders(dataSnapshot.child("Coders").child("Competition").child("Leader").getValue(String.class));
+                competition_coder.setSponsors(dataSnapshot.child("Coders").child("Competition").child("Sponsor").getValue(String.class));
+                game_coder.setTitle(dataSnapshot.child("Coders").child("Games").child("Title").getValue(String.class));
+                game_coder.setContent(dataSnapshot.child("Coders").child("Games").child("Content").getValue(String.class));
+                game_coder.setTeam_members(dataSnapshot.child("Coders").child("Games").child("Participant").getValue(String.class));
+                game_coder.setLeaders(dataSnapshot.child("Coders").child("Games").child("Leader").getValue(String.class));
+                game_coder.setSponsors(dataSnapshot.child("Coders").child("Games").child("Sponsor").getValue(String.class));
+                mobile_coder.setTitle(dataSnapshot.child("Coders").child("Mobile").child("Title").getValue(String.class));
+                mobile_coder.setContent(dataSnapshot.child("Coders").child("Mobile").child("Content").getValue(String.class));
+                mobile_coder.setTeam_members(dataSnapshot.child("Coders").child("Mobile").child("Participant").getValue(String.class));
+                mobile_coder.setLeaders(dataSnapshot.child("Coders").child("Mobile").child("Leader").getValue(String.class));
+                mobile_coder.setSponsors(dataSnapshot.child("Coders").child("Mobile").child("Sponsor").getValue(String.class));
+                trekking_robot.setTitle(dataSnapshot.child("Robotics").child("Trekking").child("Title").getValue(String.class));
+                trekking_robot.setContent(dataSnapshot.child("Robotics").child("Trekking").child("Content").getValue(String.class));
+                trekking_robot.setLeaders(dataSnapshot.child("Robotics").child("Trekking").child("Leaders").getValue(String.class));
+                trekking_robot.setTeam_members(dataSnapshot.child("Robotics").child("Trekking").child("Participant").getValue(String.class));
+                sumo_robot.setTitle(dataSnapshot.child("Robotics").child("Sumo").child("Title").getValue(String.class));
+                sumo_robot.setContent(dataSnapshot.child("Robotics").child("Sumo").child("Content").getValue(String.class));
+                sumo_robot.setLeaders(dataSnapshot.child("Robotics").child("Sumo").child("Leaders").getValue(String.class));
+                sumo_robot.setTeam_members(dataSnapshot.child("Robotics").child("Sumo").child("Participant").getValue(String.class));
+                linefollower_robot.setTitle(dataSnapshot.child("Robotics").child("Line_Follower").child("Title").getValue(String.class));
+                linefollower_robot.setContent(dataSnapshot.child("Robotics").child("Line_Follower").child("Content").getValue(String.class));
+                linefollower_robot.setLeaders(dataSnapshot.child("Robotics").child("Line_Follower").child("Leaders").getValue(String.class));
+                linefollower_robot.setTeam_members(dataSnapshot.child("Robotics").child("Line_Follower").child("Participant").getValue(String.class));
+                solar.setTitle(dataSnapshot.child("Solars").child("Title").getValue(String.class));
+                solar.setContent(dataSnapshot.child("Solars").child("Content").getValue(String.class));
+                solar.setLeaders(dataSnapshot.child("Solars").child("Leaders").getValue(String.class));
+                solar.setTeam_members(dataSnapshot.child("Solars").child("Participant").getValue(String.class));
+
+                Log.w(TAG, "SSSSSString no bundle é: " + game_coder.getTitle());
+                Log.i(TAG, "SSSSSString no bundle é: " + game_coder.getTitle());
+                Log.d(TAG, "SSSSSString no bundle é: " + game_coder.getTitle());
+            }
+
+            @Override
+            public void onCancelled(DatabaseError databaseError) {
+
+            }
+
         });
 
         new Timer().schedule(new TimerTask() {
@@ -215,7 +219,7 @@ public class ProjectsActivity  extends AppCompatActivity{
         //This timer gives time for the Thread to be loaded with
         // the desired information from firebase
 
-        new CountDownTimer(1500,1000) {
+        new CountDownTimer(1500, 1000) {
 
             public void onTick(long millisUntilFinished) {
             }
@@ -251,5 +255,4 @@ public class ProjectsActivity  extends AppCompatActivity{
 
 
     }
-
 }

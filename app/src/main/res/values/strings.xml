@@ -1,96 +1,76 @@
 <resources>
 
+    <!-- GENERAL -->
     <string name="app_name">Ramo_IEEE_Cefet-RJ</string>
-
     <string name="projects">Projetos do Ramo</string>
+    <string name="contacts">Our fucking info</string>
+    <string name="loading_message">Carregando...</string>
 
+
+    <!-- ROBOTICS -->
     <string name="title_robotics">Robótica - Wolfbotz</string>
-
+    <!-- Sumo -->
     <string name="title_sumo">Robo de Sumo</string>
-
     <string name="content_sumo">to be updated</string>
-
     <string name="members_sumo">to be updated</string>
-
     <string name="leader_sumo">to be updated</string>
-
+    <!-- Trekking -->
     <string name="title_trekking">Robo Trekking</string>
-
     <string name="content_trekking">to be updated</string>
-
     <string name="members_trekking">to be updated</string>
-
     <string name="leader_trekking">to be updated</string>
-
+    <!-- Line Follower -->
     <string name="title_linefollower">Robo Seguidor de Linha</string>
-
     <string name="content_linefollower">to be updated</string>
-
     <string name="members_linefollower">to be updated</string>
-
     <string name="leader_linefollower">to be updated</string>
 
+    <!-- CODERS -->
     <string name="title_Coders">Programação - Wolfbyte</string>
-
+    <!-- Mobile Dev. -->
     <string name="title_mobile">Equipe de Mobile</string>
-
     <string name="content_mobile">to be updated</string>
-
     <string name="members_mobile">to be updated</string>
-
     <string name="leader_mobile">to be updated</string>
-
+    <!-- Games Dev. -->
     <string name="title_game">Equipe de Jogos</string>
-
     <string name="content_game">to be updated</string>
-
     <string name="members_game">to be updated</string>
-
     <string name="leader_game">to be updated</string>
-
+    <!-- Competition -->
     <string name="title_competition">Equipe de Competição</string>
-
     <string name="content_competition">to be updated</string>
-
     <string name="members_competition">to be updated</string>
-
     <string name="leader_competition">to be updated</string>
 
-    <string name="title_rocket">Foguete - WolfRocket</string>
 
+    <!-- ROCKET -->
+    <string name="title_rocket">Foguete - RocketWolf</string>
     <string name="title_aeroRocket">Foguete</string>
-
     <string name="content_aeroRocket">to be updated</string>
-
     <string name="members_aeroRocket">to be updated</string>
-
     <string name="leader_aeroRocket">to be updated</string>
 
+    <!-- ENERGY -->
     <string name="title_energy_solartree">Energia Renovável - WolfPower </string>
-
     <string name="title_solartree">Árvore Solar</string>
-
     <string name="content_solartree">to be updated</string>
-
     <string name="members_solartree">to be updated</string>
-
     <string name="leader_solartree">to be updated</string>
 
+
+    <!-- IEEE IN SCHOOL -->
     <string name="title_social">Social - WolfSchool</string>
-
     <string name="title_schoolieee">IEEE na Escola</string>
-
     <string name="content_schooliee">to be updated</string>
-
     <string name="members_schoolieee">to be updated</string>
-
     <string name="leader_schoolieee">to be updated</string>
 
-
-    <string name="history_title">A história do Ramo estudantil IEEE do Cefet-Rj</string>
-
-    <string name="history_content">Luuuuuuuuuuuuuuuuuuuuuuz</string>
-
-    <string name="contacts">Our fucking info</string>
-
+    <!-- HISTORY -->
+    <string name="history_title">Sobre nós</string>
+    <string name="history_sect1">História do IEEE</string>
+    <string name="history_sect2">História do Ramo Estudantil</string>
+    <string name="history_sect3">Liderança</string>
+    <string name="history_sect4">Membros</string>
+    <string name="history_sect5">Patrocinadores e Parceiros</string>
 </resources>
