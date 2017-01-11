@@ -28,6 +28,11 @@ public class HistoryActivity extends AppCompatActivity {
     private TextView histBody4;
     private TextView histBody5;
 
+    private String body1;
+    private String body2;
+    private String body3;
+    private String body4;
+    private String body5;
     DatabaseReference histRef;
 
     @Override
@@ -53,12 +58,11 @@ public class HistoryActivity extends AppCompatActivity {
         histRef.addValueEventListener(new ValueEventListener() {
             @Override
             public void onDataChange(DataSnapshot dataSnapshot) {
-                histBody1.setText(dataSnapshot.child("Content").getValue(String.class));
-                histBody2.setText(dataSnapshot.child("Content_v2").getValue(String.class));
-                histBody3.setText(dataSnapshot.child("Leader").getValue(String.class));
-                histBody4.setText(dataSnapshot.child("Participant").getValue(String.class));
-                histBody5.setText(dataSnapshot.child("Sponsor").getValue(String.class));
-                setTitle(dataSnapshot.child("Title").getValue(String.class));
+                body1=dataSnapshot.child("Content").getValue(String.class);
+                body2=dataSnapshot.child("Content_v2").getValue(String.class);
+                body3=dataSnapshot.child("Leader").getValue(String.class);
+                body4=dataSnapshot.child("Participant").getValue(String.class);
+                body5=dataSnapshot.child("Sponsor").getValue(String.class);
             }
 
             @Override
@@ -66,5 +70,11 @@ public class HistoryActivity extends AppCompatActivity {
 
             }
         });
+
+        histBody1.setText(body1);
+        histBody2.setText(body2);
+        histBody3.setText(body3);
+        histBody4.setText(body4);
+        histBody5.setText(body5);
     }
 }

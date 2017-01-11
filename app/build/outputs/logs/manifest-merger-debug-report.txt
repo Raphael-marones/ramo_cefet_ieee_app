@@ -56,7 +56,7 @@ MERGED from [com.android.support:support-compat:24.2.1] C:\Users\Felipe\Document
 	android:icon
 		ADDED from C:\Users\Felipe\Documents\GitHub\ramo_cefet_ieee_app\app\src\main\AndroidManifest.xml:10:9-43
 	android:theme
-		ADDED from C:\Users\Felipe\Documents\GitHub\ramo_cefet_ieee_app\app\src\main\AndroidManifest.xml:13:9-56
+		ADDED from C:\Users\Felipe\Documents\GitHub\ramo_cefet_ieee_app\app\src\main\AndroidManifest.xml:13:9-40
 activity#raphaelsantos.ramo_ieee_cefet_rj.Activities.MainActivity
 ADDED from C:\Users\Felipe\Documents\GitHub\ramo_cefet_ieee_app\app\src\main\AndroidManifest.xml:14:9-22:20
 	android:theme

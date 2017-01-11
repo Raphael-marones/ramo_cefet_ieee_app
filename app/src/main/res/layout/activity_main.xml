@@ -3,7 +3,6 @@
 <LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    android:background="#FF151515"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:gravity="center_horizontal"
@@ -11,7 +10,7 @@
     tools:context="raphaelsantos.ramo_ieee_cefet_rj.Activities.MainActivity">
     <ImageView
         android:layout_width="match_parent"
-        android:layout_height="90dp"
+        android:layout_height="100dp"
         android:background="@drawable/ieee_banner" />
 
 <ScrollView

@@ -100,6 +100,10 @@
         "source": "C:\\Users\\Felipe\\Documents\\GitHub\\ramo_cefet_ieee_app\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.0.0\\res\\drawable\\common_plus_signin_btn_icon_dark.xml"
     },
     {
+        "merged": "C:\\Users\\Felipe\\Documents\\GitHub\\ramo_cefet_ieee_app\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\pagebreaker.xml",
+        "source": "C:\\Users\\Felipe\\Documents\\GitHub\\ramo_cefet_ieee_app\\app\\src\\main\\res\\drawable\\pagebreaker.xml"
+    },
+    {
         "merged": "C:\\Users\\Felipe\\Documents\\GitHub\\ramo_cefet_ieee_app\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_plus_signin_btn_icon_light.xml",
         "source": "C:\\Users\\Felipe\\Documents\\GitHub\\ramo_cefet_ieee_app\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.0.0\\res\\drawable\\common_plus_signin_btn_icon_light.xml"
     },

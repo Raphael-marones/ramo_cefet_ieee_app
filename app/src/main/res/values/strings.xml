@@ -3,8 +3,9 @@
     <!-- GENERAL -->
     <string name="app_name">Ramo_IEEE_Cefet-RJ</string>
     <string name="projects">Projetos do Ramo</string>
+    <string name="history">Sobre Nós</string>
     <string name="contacts">Our fucking info</string>
-    <string name="loading_message">Carregando...</string>
+    <string name="loading_message">Carregando&#8230;</string>
 
 
     <!-- ROBOTICS -->
